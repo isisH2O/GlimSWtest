@@ -41,7 +41,8 @@ Ellipse 함수 없이 GDI+ 기반 직접 그리기 구현으로,
 
 - MFC Dialog 기반 프로젝트 구성
 - CDC 및 GDI+ 기반으로 Ellipse 함수 없이 원 직접 그리기
-- 픽셀 좌표 기반의 `isinCircle()` 함수로 라인 두께 적용
+- Width와 Height의 크기로 구성된 정사각형에서 원의 반지름 내에 있는 픽셀만 원으로 취급하여,
+  완전히 채우거나 설정한 라인 두께로 원을 표시(과제 요구사항 외 기능 추가)
 - `std::thread`, `std::uniform_int_distribution` 사용해 랜덤 및 비동기 구현
 - 타이머 활용 (`SetTimer`, `OnTimer`)로 이미지 버퍼 초기화 관리
 
