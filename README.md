@@ -9,6 +9,8 @@
 Ellipse 함수 없이 GDI+ 기반 직접 그리기 구현으로,  
 픽셀 단위의 그래픽 처리 이해도를 강조했습니다.
 
+<video src="과제 실행 동영상.mp4" controls width="600"></video>
+
 ---
 
  ✅ 구현 기능 요약
